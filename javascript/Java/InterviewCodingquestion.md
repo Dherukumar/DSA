@@ -9,3 +9,22 @@ public class Main
 	}
 }
 ```
+## How to reverse a string without inbuild method 
+```
+public class Main
+{
+	public static void main(String[] args) {
+		String s = new String("Sonal");
+		char[] arr=s.toCharArray();
+		System.out.println(arr);
+		int j=arr.length;
+		for(int i=0; i<(j/2); i++) {
+			char temp= arr[i];
+			arr[i]=arr[j-1];
+			arr[j-1]=temp;
+			j--;
+		}
+		System.out.println(arr);
+	}
+}
+```
