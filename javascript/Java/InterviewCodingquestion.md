@@ -1,4 +1,4 @@
-## How reverse a string in java using inbuild method
+## 1.How reverse a string in java using inbuild method
 ```
 public class Main
 {
@@ -9,7 +9,7 @@ public class Main
 	}
 }
 ```
-## How to reverse a string without inbuild method 
+## 2.How to reverse a string without inbuild method 
 ```
 public class Main
 {
@@ -25,6 +25,23 @@ public class Main
 			j--;
 		}
 		System.out.println(arr);
+	}
+}
+```
+## 3. Swap two number without using third variable
+```
+public class Main
+{
+	public static void main(String[] args) {
+     int x=10;
+     int y=20;
+     System.out.println(x);
+     System.out.println(y);
+     x=x+y;
+     y=x-y;
+     x=x-y;
+     System.out.println(x);
+     System.out.println(y);
 	}
 }
 ```
