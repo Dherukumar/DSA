@@ -1,5 +1,6 @@
 ## How reverse a string in java using inbuild method
-> public class Main
+```
+public class Main
 {
 	public static void main(String[] args) {
 	    StringBuilder s =new StringBuilder("Sonal");
@@ -7,3 +8,4 @@
 		System.out.println(r);
 	}
 }
+```
